@@ -1,0 +1,138 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+}
+.top-banner-wrapper{
+    background-image: url("../img/top-banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.top-banner-wrapper .navbar{
+    width: 100%;
+    background-color: rgba(0,0, 0, 0.3);
+}
+.top-banner-wrapper .navbar .navbar-nav{
+    width: 100%;
+    justify-content: flex-end;
+}
+.top-banner-wrapper .navbar .navbar-nav .nav-link{
+    color:white;
+    padding-left: 15px;
+    padding-right: 15px;
+    min-width: 137px;
+    text-align: center;
+}
+.top-banner-wrapper .navbar .navbar-nav .nav-link{
+   font-size: 16px;
+   font-weight: 400;
+   font-style:normal;
+} 
+
+
+.top-banner-wrapper .customrow{
+    height: 100%;
+}
+.top-banner-wrapper .navbar .navbar-nav .nav-link#purchase{
+    background-color:rgb(80 52 252);
+    border-radius: 500px;
+}
+.top-banner-wrapper .customcontainer{
+    height: 100%;
+}
+.text-wrapper{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height:100%;
+
+}
+
+.text-wrapper .textwrapper1{
+    width: 51%;
+
+}
+
+.text-wrapper .textwrapper1 h3{
+    font-size:58px ;
+    font-weight:500 ;
+    color: white;
+}
+
+.text-wrapper .banner-para {
+    font-size: 16px;
+    font-weight: 400;
+    color:white;
+    width: 40%;
+}
+
+
+
+
+.text-wrapper h2{
+    color: rgb(254, 232, 86);
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: normal;
+    line-height: 26px;
+   }
+
+    .col-wrapper .service-title{
+    color: rgb(255, 87, 34);
+    font-size: 16px;
+    font-weight: 500;
+   }
+   .col-wrapper .service-title-header {
+    font-weight: 500;
+    font-size: 42px;
+   }
+
+   .col-wrapper .service-title-para{
+    font-size: 18px;
+    font-weight: 400;
+   }
+   .col-wrapper2 .col-wrapper2-head{
+    font-size: 21px;
+    font-weight: 500;
+   }
+   .col-wrapper2 .col-wrapper2-para{
+    font-size: 15px;
+    font-weight: 400;
+   }
+
+   .col-wrapper2 .col-wrapper2-link{
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+   }
+   .line .container-fluid{
+       height: 1px;
+       background-color: red;
+   }
+   .testimonial .row h3{
+    color: rgb(255, 87, 34);
+    font-size: 16px;
+    font-weight: 500;
+    width: 100%;
+    text-align: center;
+   }
+   .testimonial .row2 h2{
+    font-size: 42px;
+    font-weight: 500;
+    width: 100%;
+    text-align: center;
+   }
+
+   .row-name .rating-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0px;
+    }
+
+.rating-wrapper img{
+    width: 30%;
+    height: 5%;
+}
