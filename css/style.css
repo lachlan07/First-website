@@ -136,3 +136,121 @@ body{
     width: 30%;
     height: 5%;
 }
+.newsletter{
+    background-image: url("../img/newsletter.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10% 0;
+    width: 100%;
+}
+
+/* .newsletter-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background-color: rgb(252, 220, 0);
+} */
+
+.newsletter-wrapper2{
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 5% 5%;
+    background: rgba(80, 52, 252, 0.85);
+    border-radius: 10px;
+}
+.newsletter-wrapper2 .newsletter-name{
+    border-radius: 25px;
+    background-color: rgb(252, 220, 0);
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.newsletter-wrapper2 .newsletter-header{
+    font-size: 36px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    padding-top: 15px;
+}
+
+.newsletter-wrapper2 .newsletter-para{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+}
+.newsletter-wrapper2 .start-now{
+    background-color: #ff4056;
+    border-radius: 300px;
+    padding: 10px 30px;
+    color:white
+}
+.footer-wrapper{
+    width: 60%;
+    margin:0 auto;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+.footer-wrapper .footer-para{
+    font-size: 15px;
+    font-weight: 400;
+    color: rgba(38, 39, 41, 0.7);
+    margin: 16px 0px;
+    text-align: center;
+}
+.footer-wrapper ul.footer-nav{
+    padding: 0px;
+}
+.footer-wrapper .footer-nav li{
+    display:inline-block;
+    padding:0px 15px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+.footer-wrapper .footer-logo li{
+    display:inline-block;
+    padding:0px 15px;
+    text-align: center;
+}
+
+
+
+/* .footer{
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+.footer .wrapper-footerlogo{
+    display:flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.footer .footer-para{
+    font-size: 15px;
+    font-weight: 400;
+    color: rgba(38, 39, 41, 0.7);
+    margin: 16px 0px;
+    text-align: center;
+}
+.footer-wrapper{
+    width: 60%;
+    margin: 0 auto;
+}
+.footer-wrapper ul.footer-nav{
+    text-align: center;
+}
+.footer-wrapper .footer-nav li{
+    display:inline-block;
+    padding:0px 15px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400; */
+        
+}
