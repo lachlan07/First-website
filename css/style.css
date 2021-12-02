@@ -76,6 +76,7 @@ body {
 }
 .services{
     margin-bottom: 55px;
+    /* border-bottom: 1px solid rgb(222, 226, 230) !important; */
 }
 
 .services .col-wrapper {
@@ -115,7 +116,12 @@ body {
 }
 .line .container-fluid {
   height: 1px;
-  background-color: red;
+  background-color: rgb(222, 226, 230);
+}
+
+.testimonial {
+    margin-top: 90px;
+    margin-bottom: 90px;
 }
 .testimonial .row h3 {
   color: rgb(255, 87, 34);
@@ -123,12 +129,18 @@ body {
   font-weight: 500;
   width: 100%;
   text-align: center;
+
 }
 .testimonial .row2 h2 {
   font-size: 42px;
   font-weight: 500;
   width: 100%;
   text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.testimonial .testimonial-col-wrapper{
+    padding:30px;
 }
 
 .row-name .rating-wrapper {
